@@ -1,0 +1,124 @@
+html 
+{
+    max-width: fit-content;
+    max-height: fit-content;
+    position: static;
+    margin: 0;
+    
+}
+body {
+    max-width: auto;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    width: auto;
+    flex-direction: row;
+    margin: 0;
+}
+
+nav > * {
+    position: sticky;
+  
+}
+
+.home {
+
+background-color: black;
+color:ghostwhite;
+font-style: bold;
+padding: 10px;
+border-radius: 100px;
+margin: 1em;
+}
+
+
+.today {
+    margin:1em;
+    font-weight: 600;
+    font-family:serif ;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    align-content:center;
+    margin: 1em;
+    display: block;
+}
+ 
+
+.search-container:button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border-style: ridge;
+    cursor: pointer;
+}
+.search-container {
+    width: 40vh;
+}
+.i {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+input {
+    width: 400px;
+    margin:0px 10px 0px 10px;
+
+}
+
+.icons 
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.icons > * 
+{
+    margin: 10px;
+    align-items: center;
+}
+.gg-format-fustify 
+{
+   
+    align-items: center;
+}
+
+   
+
+.main-body > *
+{
+    list-style-type: none;
+    border: 1px solid red;
+    display: inline-block; 
+    height: 20vh;
+    width: 15vh; 
+    padding: 50px;
+    gap: 10px 20px;
+    margin: 20px;
+    text-align:center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.list 
+{
+
+    margin: 10px;
+}
